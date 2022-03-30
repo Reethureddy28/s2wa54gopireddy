@@ -4,7 +4,7 @@ var times = 0;
 /* GET users listing. */
 router.get('/', function(req, res, next) {
   times++;
-  res.send(`user access are:${times}`);
+  res.send(`user access are: ${times}`);
 });
 
 module.exports = router;
